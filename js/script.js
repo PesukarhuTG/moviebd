@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // некоторые изменения
     const makeChanges = () => {
         promoGenre.textContent = 'драма';
-        promoBg.style.backgroundImage = 'url(\'../img/bg.jpg\')';
+        promoBg.style.backgroundImage = `url('./img/bg.jpg')`;
     };
 
     //сортировка БД
